@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Sweet Crumbs Bakery - Fresh cakes, pastries, bread, cookies and more.">
+<title>Sweet Crumbs Bakery | Freshly Made With Love</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="header" id="header">
+  <nav class="navbar" aria-label="Main navigation">
+    <a href="#home" class="logo"><span>Sweet</span> Crumbs</a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#products">Products</a></li>
+      <li><a href="#offers">Offers</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button type="button" class="nav-order" data-open-cart>Order Now</button>
+      <button type="button" class="cart-btn" data-open-cart aria-label="Open cart">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 11h10.200L20 7H6"/><circle cx="9" cy="20" r="1.500"/><circle cx="17" cy="20" r="1.500"/></svg>
+        <span class="cart-count" id="cartCount">0</span>
+      </button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="hero-badge reveal">✦ FRESH • HOMEMADE • DELICIOUS</p>
+    <h1 class="reveal">Sweet Moments <span>Made Fresh.</span></h1>
+    <p class="hero-description reveal">From celebration cakes to warm morning bread, every bite is freshly prepared with care.</p>
+    <div class="hero-buttons reveal">
+      <a href="#products" class="btn btn-primary">Explore Our Bakery <span aria-hidden="true">→</span></a>
+      <a href="#" data-wa="Hello Sweet Crumbs Bakery, I would like to place an order." class="btn btn-whatsapp">Order on WhatsApp</a>
+    </div>
+    <ul class="hero-trust reveal">
+      <li><strong>10+</strong><span>Years Experience</span></li>
+      <li class="trust-line" aria-hidden="true"></li>
+      <li><strong>5000+</strong><span>Happy Customers</span></li>
+      <li class="trust-line" aria-hidden="true"></li>
+      <li><strong>100%</strong><span>Freshly Made</span></li>
+    </ul>
+  </div>
+  <a href="#about" class="scroll-indicator" aria-label="Scroll to About section"><span>SCROLL</span><span class="scroll-arrow" aria-hidden="true">↓</span></a>
+</section>
+
+<section id="about" class="about section">
+  <div class="about-grid">
+    <div class="about-visual reveal">
+      <div class="about-image-card"><img src="https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=900&q=80" alt="Freshly baked cakes displayed at a bakery" loading="lazy"></div>
+      <div class="image-label"><span>BAKED WITH</span><strong>Love ♥</strong></div>
+      <div class="experience-card"><strong>10+</strong><span>Years of<br>experience</span></div>
+    </div>
+    <div class="about-text reveal">
+      <span class="eyebrow">OUR STORY</span>
+      <h2>Traditional taste. <em>Modern experience.</em></h2>
+      <p>Sweet Crumbs is a local bakery serving freshly prepared cakes, pastries, breads, cookies and snacks. We are moving from traditional business methods towards digital marketing, so customers can discover us, talk to us and order more easily.</p>
+      <ul class="about-points">
+        <li><span aria-hidden="true">✓</span>Fresh ingredients</li>
+        <li><span aria-hidden="true">✓</span>Baked daily</li>
+        <li><span aria-hidden="true">✓</span>Easy online ordering</li>
+        <li><span aria-hidden="true">✓</span>Friendly customer service</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="products" class="products section">
+  <div class="section-heading reveal">
+    <span class="eyebrow">FROM OUR OVEN</span>
+    <h2>Fresh favourites, <span>made daily.</span></h2>
+    <p>Add your favourites to the cart and place your order in a minute.</p>
+  </div>
+  <div class="product-grid" id="productGrid"></div>
+</section>
+
+<section id="offers" class="offer-section">
+  <div class="offer-content reveal">
+    <span class="offer-label">✦ LIMITED TIME OFFER ✦</span>
+    <p class="offer-big">20% <small>OFF</small></p>
+    <h2>On Selected Birthday Cakes</h2>
+    <p class="offer-text">Make their birthday extra sweet. Message us on WhatsApp to choose your cake and claim the discount.</p>
+    <a href="#" class="btn btn-light" data-wa="Hello Sweet Crumbs Bakery, I would like to claim the 20% birthday cake offer.">Claim Offer <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<section id="digital" class="digital section">
+  <div class="section-heading reveal">
+    <span class="eyebrow">DIGITAL TRANSFORMATION</span>
+    <h2>A traditional bakery, <span>going digital.</span></h2>
+    <p>Technology helps Sweet Crumbs connect with customers beyond the bakery counter.</p>
+  </div>
+  <div class="digital-grid">
+    <article class="digital-card reveal"><div class="digital-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></div><h3>Social Media</h3><p>Instagram and Facebook posts, reels and promotional campaigns.</p></article>
+    <article class="digital-card reveal"><div class="digital-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a8 8 0 0 1-11.800 7L3 21l2-5.500A8 8 0 1 1 21 12z"/></svg></div><h3>WhatsApp Ordering</h3><p>Customers can directly communicate and place orders.</p></article>
+    <article class="digital-card reveal"><div class="digital-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.500 7-12a7 7 0 1 0-14 0c0 5.500 7 12 7 12z"/><circle cx="12" cy="10" r="2.500"/></svg></div><h3>Google Business</h3><p>Customers can discover the bakery through Google Search and Maps.</p></article>
+    <article class="digital-card reveal"><div class="digital-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div><h3>Digital Analytics</h3><p>Track enquiries, engagement and campaign performance.</p></article>
+  </div>
+</section>
+
+<section id="contact" class="contact section">
+  <div class="section-heading reveal">
+    <span class="eyebrow">GET IN TOUCH</span>
+    <h2>Let's make something <span>delicious.</span></h2>
+    <p>Have a question? Send us an enquiry and we'll get back to you.</p>
+  </div>
+  <div class="contact-container">
+    <div class="contact-info reveal">
+      <h3>Sweet Crumbs Bakery</h3>
+      <div class="contact-item"><span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.500 7-12a7 7 0 1 0-14 0c0 5.500 7 12 7 12z"/><circle cx="12" cy="10" r="2.500"/></svg></span><div><strong>Address</strong><p>123 Main Road, Your City</p></div></div>
+      <div class="contact-item"><span aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></svg></span><div><strong>Phone</strong><p><a href="tel:+919876543210" id="phoneLink">+91 98765 43210</a></p></div></div>
+      <div class="contact-item"><span aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><strong>Opening Hours</strong><p>Every day · 8:00 AM – 9:00 PM</p></div></div>
+      <div class="social-links">
+        <a href="https://www.instagram.com/" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://www.facebook.com/" data-social="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+      </div>
+    </div>
+    <div class="contact-form-box reveal">
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group"><label for="name">Your Name</label><input type="text" id="name" placeholder="Enter your name" autocomplete="name"><span class="error" id="nameError" role="alert"></span></div>
+          <div class="form-group"><label for="phone">Phone Number</label><input type="tel" id="phone" placeholder="10-digit mobile number" autocomplete="tel" inputmode="tel"><span class="error" id="phoneError" role="alert"></span></div>
+        </div>
+        <div class="form-group"><label for="email">Email Address</label><input type="email" id="email" placeholder="Enter your email" autocomplete="email"><span class="error" id="emailError" role="alert"></span></div>
+        <div class="form-group"><label for="message">Message</label><textarea id="message" rows="5" placeholder="Tell us what you need..."></textarea><span class="error" id="messageError" role="alert"></span></div>
+        <button type="submit" class="btn btn-primary form-button" id="enquiryBtn">Send Enquiry <span aria-hidden="true">→</span></button>
+        <div class="form-success" id="formSuccess" role="status" aria-live="polite" hidden></div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="footer-main">
+    <div class="footer-brand"><a href="#home" class="footer-logo">Sweet Crumbs</a><p>Freshly baked happiness, made with care and shared with our community.</p></div>
+    <nav class="footer-links" aria-label="Footer navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#products">Products</a><a href="#offers">Offers</a><a href="#contact">Contact</a></nav>
+    <div class="footer-social">
+      <a href="https://www.instagram.com/" data-social="instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.facebook.com/" data-social="facebook" target="_blank" rel="noopener noreferrer">Facebook</a>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>© 2026 Sweet Crumbs Bakery. All Rights Reserved.</p><p>Digital Transformation Mini Project</p></div>
+</footer>
+
+<a href="#" class="floating-whatsapp" data-wa="Hello Sweet Crumbs Bakery, I would like to place an order." aria-label="Chat with us on WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.500 3.500A11 11 0 0 0 3.200 17.300L2 22l4.800-1.200A11 11 0 1 0 20.500 3.500zM12 20a9 9 0 0 1-4.600-1.300l-.3-.2-2.800.7.8-2.700-.2-.3A9 9 0 1 1 12 20zm5-6.700c-.3-.1-1.600-.8-1.900-.9s-.4-.1-.6.1-.7.9-.9 1.100-.3.2-.6.1a7.300 7.300 0 0 1-3.600-3.100c-.3-.5.3-.4.8-1.400.1-.2 0-.3 0-.5l-.9-2c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.200 5.200 5.200 0 0 0 1.100 2.800 11.900 11.900 0 0 0 4.600 4.100c1.700.7 2.300.8 3.100.7a2.600 2.600 0 0 0 1.700-1.200 2.100 2.100 0 0 0 .2-1.200c-.1-.1-.3-.2-.6-.3z"/></svg>
+</a>
+
+<!-- CART DRAWER -->
+<div class="overlay" id="overlay"></div>
+<aside class="cart" id="cart" aria-label="Shopping cart" aria-hidden="true">
+  <div class="cart-head"><h2>Your Cart</h2><button type="button" id="cartClose" aria-label="Close cart">✕</button></div>
+  <div class="cart-body">
+    <div id="cartItems"></div>
+    <form id="checkoutForm" novalidate hidden>
+      <h3>Delivery details</h3>
+      <div class="form-group"><label for="cName">Name</label><input type="text" id="cName" autocomplete="name"></div>
+      <div class="form-group"><label for="cPhone">Phone</label><input type="tel" id="cPhone" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile number"></div>
+      <div class="form-group"><label for="cAddress">Delivery address</label><textarea id="cAddress" rows="3" autocomplete="street-address"></textarea></div>
+      <div class="form-group"><label for="cNote">Note (optional)</label><input type="text" id="cNote" placeholder="e.g. Write 'Happy Birthday' on cake"></div>
+      <p class="error" id="checkoutError" role="alert"></p>
+      <button type="submit" class="btn btn-whatsapp">Place Order on WhatsApp</button>
+      <p class="fine">Your order opens in WhatsApp. Press Send there to confirm it with the bakery.</p>
+    </form>
+    <div class="form-success" id="orderMsg" role="status" aria-live="polite" hidden></div>
+  </div>
+  <div class="cart-total" id="cartTotalBar" hidden><span>Total</span><strong id="cartTotal">₹0</strong></div>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
